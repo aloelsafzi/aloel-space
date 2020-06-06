@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.bg-base{
+    background-color: #f4f4f4;
+}
+
+.bg-secondary{
+    background-color: #3f3f44;
+}
+
+
+.mode-malam{
+    background-color:black;
+    color: whitesmoke;
+}

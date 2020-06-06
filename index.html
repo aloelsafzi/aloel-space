@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aloel space</title>
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="flex items-center justify-between flex-wrap bg-orange-600 p-6 sticky top-0">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <i class="p-2 mx-2 fas fa-code bg-white text-orange-600 rounded-full"></i>
+            <span class="font-semibold text-xl tracking-tight">aloel space</span>
+        </div>
+        <div class="block lg:hidden">
+            <button id="btn-toggle" class="flex items-center px-3 py-2 text-orange-100">
+                <i id="icon" class="text-2xl fas fa-toggle-off"></i>
+            </button>
+        </div>
+        <div id="link-menu" class="hidden w-full flex-grow lg:flex lg:items-center lg:w-auto">
+            <div class="text-sm lg:flex-grow">
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-orange-200 hover:text-white mr-4">
+                    About Me
+                </a>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-orange-200 hover:text-white mr-4">
+                    Contact
+                </a>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-orange-200 hover:text-white">
+                    Portofolio
+                </a>
+            </div>
+            <div>
+                <a href="#"
+                    class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-orange-500 hover:bg-white mt-4 lg:mt-0">Meet
+                    me</a>
+                <button id="toggle-mode"
+                    class="inline-block text-sm px-4 py-2 leading-none rounded-full bg-white text-orange-500 hover:text-orange-500 hover:bg-white mt-4 lg:mt-0"><i
+                        id="icon-mode" class="fas fa-moon"></i></button>
+            </div>
+        </div>
+    </nav>
+    <div id="base" class="bg-base h-full md:py-10">
+        <div class="container bg-secondary md:rounded-lg p-10 md:p-20 mx-auto md:mt-10 mb-20">
+            <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
+                <div class="bg-white p-3 rounded-full shadow-xl">
+                    <img class="rounded-full" src="./assets/img/92718473_2821524158082648_4161229844127940608_n.jpg"
+                        alt="Foto Ku">
+                </div>
+                <div class="bg-white p-3 rounded-lg shadow-xl">
+                    <h1 class="text-xl bg-secondary text-white rounded p-3 text-center">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur reiciendis facere repellat
+                        amet perferendis. Porro
+                        et omnis, quibusdam atque inventore explicabo. Unde minima, sequi tenetur laborum totam, atque
+                        laudantium similique
+                        odit tempora harum nulla possimus sint in modi nostrum exercitationem. Harum quas veniam eos
+                        officiis asperiores
+                        quidem dolore voluptates suscipit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-5 py-5">
+            <h1 class="text-3xl mb-6 text-center">
+                Portofolio</h1>
+            <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+                <div class="bg-white p-3 rounded-lg shadow-xl">
+                    <h1 class="text-xl bg-secondary text-white rounded p-3 text-center">Portofolio 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur reiciendis facere repellat
+                        amet perferendis. Porro et omnis, quibusdam atque inventore explicabo. Unde minima, sequi
+                        tenetur laborum totam, atque laudantium similique odit tempora harum nulla possimus sint in modi
+                        nostrum exercitationem. Harum quas veniam eos officiis asperiores quidem dolore voluptates
+                        suscipit.</p>
+                </div>
+                <div class="bg-white p-3 rounded-lg shadow-xl">
+                    <h1 class="text-xl bg-secondary text-white rounded p-3 text-center">Portofolio 2</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur reiciendis facere repellat
+                        amet perferendis. Porro
+                        et omnis, quibusdam atque inventore explicabo. Unde minima, sequi tenetur laborum totam, atque
+                        laudantium similique
+                        odit tempora harum nulla possimus sint in modi nostrum exercitationem. Harum quas veniam eos
+                        officiis asperiores
+                        quidem dolore voluptates suscipit.</p>
+                </div>
+                <div class="bg-white p-3 rounded-lg shadow-xl">
+                    <h1 class="text-xl bg-secondary text-white rounded p-3 text-center">Portofolio 3</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur reiciendis facere repellat
+                        amet perferendis. Porro
+                        et omnis, quibusdam atque inventore explicabo. Unde minima, sequi tenetur laborum totam, atque
+                        laudantium similique
+                        odit tempora harum nulla possimus sint in modi nostrum exercitationem. Harum quas veniam eos
+                        officiis asperiores
+                        quidem dolore voluptates suscipit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-5 py-5">
+            <h1 class="text-3xl mb-6 text-center">
+                Contact Me</h1>
+            <div class="grid gap-4 grid-cols-1">
+                <div class="bg-white p-3 rounded-lg shadow-xl">
+                    <h1 class="text-xl bg-secondary text-white rounded p-3 text-center">Send Email</h1>
+                    <form class="w-full mt-5">
+                        <div class="md:flex md:items-center mb-6">
+                            <div class="md:w-1/3">
+                                <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+                                    for="inline-full-name">
+                                    Full Name
+                                </label>
+                            </div>
+                            <div class="md:w-2/3">
+                                <input
+                                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-orange-500"
+                                    id="inline-full-name" type="text">
+                            </div>
+                        </div>
+                        <div class="md:flex md:items-center mb-6">
+                            <div class="md:w-1/3">
+                                <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+                                    for="inline-email">
+                                    Email
+                                </label>
+                            </div>
+                            <div class="md:w-2/3">
+                                <input
+                                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-orange-500"
+                                    id="inline-email" type="email" placeholder="your.email@email.com">
+                            </div>
+                        </div>
+                        <div class="md:flex md:items-center mb-6">
+                            <div class="md:w-1/3">
+                                <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+                                    for="inline-msg">
+                                    Message
+                                </label>
+                            </div>
+                            <div class="md:w-2/3">
+                                <textarea
+                                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-orange-500"
+                                    id="inline-msg" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="md:flex md:items-center">
+                            <div class="md:w-1/3"></div>
+                            <div class="md:w-2/3">
+                                <button
+                                    class="shadow bg-orange-500 hover:bg-orange-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                                    type="button">
+                                    Send
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-secondary h-40 pt-10">
+        <p class="text-white text-center"><i class="fas fa-copyright"></i> 2020 /
+            <a href="#" class="hover:text-red-600">aloelsafzi</a> with
+            <i class="text-red-600 fas fa-heart"></i> in Banten
+        </p>
+        <div class="text-center">
+            <a href="#" class="text-white text-center hover:text-red-600 text-3xl"><i class="fab fa-github"></i></a>
+            <a href="#" class="text-white text-center hover:text-red-600 text-3xl"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-white text-center hover:text-red-600 text-3xl"><i
+                    class="fab fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
